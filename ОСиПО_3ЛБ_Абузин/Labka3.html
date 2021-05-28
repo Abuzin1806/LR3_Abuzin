@@ -1,0 +1,79 @@
+
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>HTML document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src ="scriptmax.js"></script>
+    <script src ="scriptall.js"></script>
+    <title>first</title>
+    <style>
+        body{
+            background-color: rgb(80, 80, 80);
+            color: rgb(00, 00, 00);
+        }
+        .Ind4{
+            margin-left: auto;
+            margin-right: auto;
+            border: 40px double rgb(00, 00, 00); /* Параметры границы */
+            background: rgb(50, 104, 221); /* Цвет фона */
+            padding: 15px; /* Поля вокруг текста */
+            width: 850px;
+        }
+    </style>
+<body>
+    <div align="center">
+        <div ></div>
+        <pre><h1> Лабораторная №3 </h1></pre>
+        <b></b > №1.</b><p></p>
+        <b> Нахождение максимума из двух чисел</b><p></p>
+            <form name="form1">
+                Введите числа:<br><br>
+                A = <input type="text" name="A" size="4">
+                B = <input type="text" name="B" size="4">
+                <input type="button" value="Посчитать" onClick="Max()" /><br><br>
+                Результат = <output type="text" name="x1" size="25">&nbsp;&nbsp;&nbsp;&nbsp; 
+            </form>
+    </div>
+    <div align="center">
+        <br><br>
+        <b>  №2. Взаимодействие с пользователем</b><p></p>
+            <form name="form2">
+                <h3>Админ</h3>
+                Admin :
+                <input type="button" value="Нажмите сюда" onClick="Check()" /><br><br>
+            </form>
+    </div>
+    <div  align="center">
+        <br><br>
+        <b>  №3. Уточнение возраста</b><p></p>
+            <form name="form3">
+                <h3>Возраст</h3>
+                <input type="button" value="Ввод" onClick="Age()" /><br><br>
+            </form>
+    </div>
+    <div align="center" class="Ind4">
+        <b> №4. Резюме</b><p></p>
+            <form name="form4">
+                ФИО: Aбузин Антон Александрович <br>
+                Пол: Поцан <br>
+                Возраст: 23 года <br>
+                <br><br>
+                <input type="button" value="Показать место проживания" onClick="Show()" />
+                <br><br>
+                <img src="Krisa.jpg" alt="Photo" width="400" height="400">
+                <br><br>
+                <h2 align = "center"> Данные </h2>
+                <p align = "center"> Имя: Антон </h1></p>
+                Фамилия: <span align = "center" id = "secondname"> Абузин </span>
+                <br><br>
+                <input type = "text" id="text" placeholder = "Пиши фамилию">
+                <input type = "button" value = "Rename" onClick="Rename()" >
+            </form>
+        <script src = "scriptall.js"> </script>
+    </div>
+    <br><br>
+    <img src="Just_try.png" alt="Photo" width="200" height="200">
+    
+</body>
+</html>
